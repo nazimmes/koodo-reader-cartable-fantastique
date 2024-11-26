@@ -42,7 +42,8 @@ class styleUtil {
       StorageUtil.getReaderConfig("lineHeight") || "1.25"
     } !important;font-family: ${
       StorageUtil.getReaderConfig("fontFamily") || ""
-    } !important;background-color: transparent;color: ${
+    } 
+    !important;background-color: transparent;color: ${
       StorageUtil.getReaderConfig("textColor")
         ? StorageUtil.getReaderConfig("textColor")
         : StorageUtil.getReaderConfig("backgroundColor") ===
@@ -52,7 +53,10 @@ class styleUtil {
             StorageUtil.getReaderConfig("isOSNight") === "yes")
         ? "white"
         : ""
-    } !important;letter-spacing: ${
+    } 
+
+    
+    !important;letter-spacing: ${
       StorageUtil.getReaderConfig("letterSpacing")
         ? StorageUtil.getReaderConfig("letterSpacing")
         : ""
