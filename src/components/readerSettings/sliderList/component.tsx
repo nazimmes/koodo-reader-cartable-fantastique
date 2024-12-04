@@ -15,14 +15,14 @@ class SliderList extends React.Component<SliderListProps, SliderListState> {
         this.props.mode === "fontSize"
           ? StorageUtil.getReaderConfig("fontSize") || "17"
           : this.props.mode === "scale"
-          ? StorageUtil.getReaderConfig("scale") || "1"
-          : this.props.mode === "letterSpacing"
-          ? StorageUtil.getReaderConfig("letterSpacing") || "0"
-          : this.props.mode === "paraSpacing"
-          ? StorageUtil.getReaderConfig("paraSpacing") || "0"
-          : this.props.mode === "brightness"
-          ? StorageUtil.getReaderConfig("brightness") || "1"
-          : StorageUtil.getReaderConfig("margin") || "0",
+            ? StorageUtil.getReaderConfig("scale") || "1"
+            : this.props.mode === "letterSpacing"
+              ? StorageUtil.getReaderConfig("letterSpacing") || "0"
+              : this.props.mode === "paraSpacing"
+                ? StorageUtil.getReaderConfig("paraSpacing") || "0"
+                : this.props.mode === "brightness"
+                  ? StorageUtil.getReaderConfig("brightness") || "1"
+                  : StorageUtil.getReaderConfig("margin") || "0",
     };
   }
   handleRest = async () => {
@@ -93,7 +93,7 @@ class SliderList extends React.Component<SliderListProps, SliderListState> {
             type="number"
             step={
               this.props.title === "Page width" ||
-              this.props.title === "Brightness"
+                this.props.title === "Brightness"
                 ? "0.1"
                 : "1"
             }
