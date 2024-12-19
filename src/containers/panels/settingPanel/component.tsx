@@ -65,7 +65,7 @@ class SettingPanel extends React.Component<
               title: "Font size",
             }}
           /> */}
-
+{/* 
           <SliderList
             {...{
               maxValue: 80,
@@ -76,9 +76,9 @@ class SettingPanel extends React.Component<
               step: 5,
               title: "Margin",
             }}
-          />
+          /> */}
 
-          <SliderList
+          {/* <SliderList
             {...{
               maxValue: 20,
               minValue: 0,
@@ -88,7 +88,7 @@ class SettingPanel extends React.Component<
               step: 1,
               title: "Letter spacing",
             }}
-          />
+          /> */}
 
           {/* <SliderList
             {...{
@@ -102,7 +102,7 @@ class SettingPanel extends React.Component<
             }}
           /> */}
 
-          <SliderList
+          {/* <SliderList
             {...{
               maxValue: 60,
               minValue: 0,
@@ -112,9 +112,9 @@ class SettingPanel extends React.Component<
               step: 1,
               title: "Paragraph spacing",
             }}
-          />
+          /> */}
 
-          {this.state.readerMode && this.state.readerMode !== "double" ? (
+          {/* {this.state.readerMode && this.state.readerMode !== "double" ? (
             <SliderList
               {...{
                 maxValue: 3,
@@ -126,8 +126,8 @@ class SettingPanel extends React.Component<
                 title: "Page width",
               }}
             />
-          ) : null}
-          <SliderList
+          ) : null} */}
+          {/* <SliderList
             {...{
               maxValue: 1,
               minValue: 0.3,
@@ -137,7 +137,7 @@ class SettingPanel extends React.Component<
               step: 0.1,
               title: "Brightness",
             }}
-          />
+          /> */}
           {/* <DropdownList /> */}
         </div>
       </div>
