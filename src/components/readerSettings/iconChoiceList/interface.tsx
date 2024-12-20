@@ -3,8 +3,15 @@ export interface IconChoiceListProps {
   renderBookFunc: () => void;
 }
 export interface IconChoiceListState {
-  // currentFontFamilyIndex: number;
+  currentFontFamily: string;
+  cuurentTaillePolice: number;
   // currentLineHeightIndex: number;
   // currentTextAlignIndex: number;
   // chineseConversionIndex: number;
+}
+
+export interface IconChoiseStyle {
+  value: string,
+  src: string,
+  alt: string,
 }

@@ -1,6 +1,7 @@
 class StorageUtil {
   static getReaderConfig(key: string) {
     let readerConfig = JSON.parse(localStorage.getItem("readerConfig")!) || {};
+
     return readerConfig[key];
   }
 

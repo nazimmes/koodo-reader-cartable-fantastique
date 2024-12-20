@@ -10,6 +10,7 @@ import { SettingPanelProps, SettingPanelState } from "./interface";
 import { Trans } from "react-i18next";
 import StorageUtil from "../../../utils/serviceUtils/storageUtil";
 
+
 class SettingPanel extends React.Component<
   SettingPanelProps,
   SettingPanelState

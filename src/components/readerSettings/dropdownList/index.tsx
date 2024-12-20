@@ -4,12 +4,12 @@
 // import { stateType } from "../../../store";
 
 // const mapStateToProps = (state: stateType) => {
-//   return {
-//     renderBookFunc: state.book.renderBookFunc,
-//   };
+//     return {
+//         renderBookFunc: state.book.renderBookFunc,
+//     };
 // };
 // const actionCreator = {};
 // export default connect(
-//   mapStateToProps,
-//   actionCreator
+//     mapStateToProps,
+//     actionCreator
 // )(withTranslation()(DropdownList as any) as any);
